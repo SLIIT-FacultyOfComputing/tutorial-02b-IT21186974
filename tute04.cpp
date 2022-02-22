@@ -53,7 +53,7 @@ long Factorial(int no)
 {
 	int y=1;
 	
- 	for (no; no >= 1; no--) 
+ 	for (; no >= 1; no--) 
  		{
  			y = y * no; //factorial calculation
  		}
